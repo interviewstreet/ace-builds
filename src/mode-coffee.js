@@ -22,8 +22,7 @@ define("ace/mode/coffee_highlight_rules",["require","exports","module","ace/lib/
 
         var illegal = (
             "case|const|default|function|var|void|with|enum|export|implements|" +
-            "interface|let|package|private|protected|public|static|yield|" +
-            "__hasProp|slice|bind|indexOf"
+            "interface|let|package|private|protected|public|static|yield"
         );
 
         var supportClass = (

@@ -114,7 +114,7 @@ var c_cppHighlightRules = function() {
                 next : "comment"
             }, {
                 token : "string", // character
-                regex : "'(?:" + escapeRe + "|.)'"
+                regex : "'(?:" + escapeRe + "|.)?'"
             }, {
                 token : "string.start",
                 regex : '"', 
